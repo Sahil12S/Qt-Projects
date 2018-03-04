@@ -8,7 +8,13 @@ I am using Qt to make some basic applications in C++.
 Application 1: Hello World
   The first application that says Hello in a separate window.
 
+Application 2: FirstProject
+	A test to display a message in window on button click and close the window on another button click.
 
+Application 3: SignalsAndSlot
+	There are 2 ways to make connection between Progress Bar and Slider:
+	1. Using GUI: Edit Signals and Slots -> Select Slider and connect it with Progress Bar -> valueChanged(int) -> setValue(int) -> Run.
+	2. Using command line: Edit window -> mainwindow.cpp -> Use function "connect(ui->horizontalSlider, SIGNAL(valueChanged(int)), pi->progressBar, SLOT(setValue(int)));" -> Run.
 
 
 
